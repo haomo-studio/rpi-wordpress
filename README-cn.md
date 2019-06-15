@@ -1,12 +1,10 @@
 # WordPress in RPi
 
-请见[中文文档](./README-cn.md)
+本项目在Raspberry Zero W 及 Raspberry 3B+中测试通过，操作系统为Raspbian Stretch 2019中测试通过。其他版本的rpi未测试（理论上应该都可以）。
 
-This docker-compose.yml was tested in Raspberry Zero W and Raspberry 3B+ with Raspbian Stretch 2019 installed. Micro SD card is 32GB. Other rpi were not tested. You can test it and give me feedback.
+## 安装
 
-## Intall
-
-### install docker
+### 安装docker
 
 ```bash
 sudo apt-get purge docker-ce
@@ -24,14 +22,14 @@ sudo service docker restart
 sudo chmod a+rw /var/run/docker.sock
 ```
 
-### start
+### 启动容器
 
 ```bash
 docker-compose up -d
 ```
 
-### browser
+### 打开浏览器
 
-Open browser and view: http://localhost
+输入地址： http://localhost
 
 ## 参考
