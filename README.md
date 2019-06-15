@@ -1,5 +1,7 @@
 # WordPress in RPi
 
+本项目在Raspberry Zero W 及 Raspberry 3B+中测试通过，操作系统为Raspbian Stretch 2019中测试通过。其他版本的rpi未测试（理论上应该都可以）。
+
 ## 安装
 
 ### 安装docker
