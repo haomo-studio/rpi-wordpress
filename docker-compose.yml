@@ -6,7 +6,7 @@ services:
     hostname: edge-nginx
     volumes:
       - ./wp_site:/var/www/html
-      - ./edge.conf:/etc/nginx/conf.d/edge.conf
+      - ./site.conf:/etc/nginx/conf.d/site.conf
     restart: always
     stdin_open: true
     tty: true
